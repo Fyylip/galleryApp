@@ -22,6 +22,7 @@ namespace gallery
             var date = e.Data.GetData(DataFormats.FileDrop);
             if (date != null)
             {
+                int a = 2;
                 var fielsNames = date as string[];
                 if (fielsNames != null)
                 {
